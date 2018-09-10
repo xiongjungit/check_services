@@ -1,0 +1,84 @@
+2018-09-06-14:41:56
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到webservice未启动....\r\n开始启动webservice，请等待10秒......\r\nwebservice启动成功\r\n", 
+    "stdout_lines": [
+        "监测到webservice未启动....", 
+        "开始启动webservice，请等待10秒......", 
+        "webservice启动成功"
+    ]
+}
+2018-09-06-14:50:01
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到cpees2未启动....\r\n开始启动cpees2，请等待10秒......\r\ncpees2启动成功\r\n", 
+    "stdout_lines": [
+        "监测到cpees2未启动....", 
+        "开始启动cpees2，请等待10秒......", 
+        "cpees2启动成功"
+    ]
+}
+2018-09-06-14:53:47
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到cpees未启动....\r\n开始启动cpees，请等待10秒......\r\ncpees启动成功\r\n", 
+    "stdout_lines": [
+        "监测到cpees未启动....", 
+        "开始启动cpees，请等待10秒......", 
+        "cpees启动成功"
+    ]
+}
+2018-09-06-15:53:45
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到cpees未启动....\r\n开始启动cpees，请等待10秒......\r\ncpees启动成功\r\n", 
+    "stdout_lines": [
+        "监测到cpees未启动....", 
+        "开始启动cpees，请等待10秒......", 
+        "cpees启动成功"
+    ]
+}
+2018-09-06-15:56:15
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到cpees2未启动....\r\n开始启动cpees2，请等待10秒......\r\ncpees2启动成功\r\n", 
+    "stdout_lines": [
+        "监测到cpees2未启动....", 
+        "开始启动cpees2，请等待10秒......", 
+        "cpees2启动成功"
+    ]
+}
+2018-09-06-16:50:14
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到cpees2未启动....\r\n开始启动cpees2，请等待10秒......\r\ncpees2启动成功\r\n", 
+    "stdout_lines": [
+        "监测到cpees2未启动....", 
+        "开始启动cpees2，请等待10秒......", 
+        "cpees2启动成功"
+    ]
+}
+2018-09-06-16:52:56
+10.50.167.59 | SUCCESS => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.50.167.59 closed.\r\n", 
+    "stdout": "监测到cpees未启动....\r\n开始启动cpees，请等待10秒......\r\ncpees启动成功\r\n", 
+    "stdout_lines": [
+        "监测到cpees未启动....", 
+        "开始启动cpees，请等待10秒......", 
+        "cpees启动成功"
+    ]
+}
