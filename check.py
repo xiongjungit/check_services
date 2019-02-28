@@ -56,7 +56,7 @@ def check_service(service_name,service_url,logfile):
         #ssh.run(ip,name)
 
 if __name__ == "__main__":
-    if "Windows" in platform.architecture():
+    if platform.system() == "Windows":
         logfile = "logs\check.log"
     else:
         logfile = "logs/check.log"
