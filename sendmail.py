@@ -92,8 +92,8 @@ def tohtml(filename):
         print >> f, "</table>"
 
 def main():
-    if "Windows" in platform.architecture():
-        logfile = "logs\check.log"
+    if platform.system() == "Windows":
+        logfile = "logs\\check.log"
     else:
         logfile = "logs/check.log"
     if os.path.exists(logfile):
