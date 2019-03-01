@@ -57,10 +57,10 @@ def check_service(service_name,service_url,logfile):
 
 if __name__ == "__main__":
     if platform.system() == "Windows":
-        logfile = "logs\check.log"
+        logfile = "logs\\check.log"
     else:
         logfile = "logs/check.log"
-    Time = time.strftime("%Y-%m-%d %H:%M", time.localtime())
+    Time = time.strftime("%Y-%m-%d-%H-%M", time.localtime())
     if os.path.exists(logfile):
         os.rename(logfile,'%s_%s' %(logfile,Time))
     config_file = conf.getConfig("service.ini")
