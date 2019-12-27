@@ -54,9 +54,9 @@ def tohtml(filename):
     info = getinfo(filename)
     with open('index.html','w+') as f:
         print >> f, "<style>"
-        print >> f, "table,table tr th, table tr td { border:1px solid blue; }"
-        #print >> f, "table,table tr th, table tr td { border:1px solid red; }"
-        print >> f, "table { width: 680px; min-height: 25px; line-height: 25px; text-align: center; border-collapse: collapse; padding:2px;}"
+        print >> f, "table{border-collapse:collapse;border-spacing:0;border-left:1px solid #000;border-top:1px solid #000;border:solid 1px #000;color:#000} "
+        print >> f, "th,td{border-right:1px solid #000;border-bottom:1px solid #000;border:solid 1px #000;padding:5px;font-size:16px;}"
+		print >> f, "th{font-weight:bold;text-align:left}"
         print >> f, "</style>"
         print >> f, "<table border=\"1\">"
         print >> f, "<tr>"
